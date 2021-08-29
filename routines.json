@@ -1,0 +1,27 @@
+{
+    "example_linux_routine":{    
+                    "sources": [    
+                                        "/home/user/ProjectFiles/BikeTrip/PicturesFolder",
+                                        "/home/user/ProjectFiles/MyWebpageFolder",
+                                        "/home/user/ProjectFiles/Book/Notes/this_could_also_be_a_file"
+                               ],
+
+                "destinations": [    
+                                        "/home/user/Backups/BackupsHere",
+                                        "/home/user/Backups/AndAlsoHere"
+                                ]                               
+
+           },               
+
+    "example_windows_routine":{    
+                "sources": [    
+                                "C:\\aFolderName\\aSubfolder\\aFolderYouWantToBackup",
+                                "C:\\anotherFolderName\\aSubfolder\\file_you_want_to_backup.txt"
+                           ],
+
+                "destinations": [    
+                                    "C:\\anotherFolder\\CouldBeAlsoAPenDrive\\destinationFolder"
+                                ]                               
+
+           }   
+}
