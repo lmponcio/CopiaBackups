@@ -5,7 +5,7 @@ import zipfile
 import datetime
 import argparse
 import json
-version='1.0'
+version='1.1'
 
 
 def log_config():
@@ -307,7 +307,7 @@ if __name__ == "__main__":
 
     # configuring log
     log_config()
-    logging.debug('LmBackup v%s started', version)
+    logging.debug('Copia Backups v%s started - script by lmponcio', version)
 
     # importing arguments
     arguments=clinterface()
