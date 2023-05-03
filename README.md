@@ -4,7 +4,7 @@ A script for creating backups of multiple folders/files into multiple destinatio
 
 ## Watch it work
 
-[![Watch Video](https://raw.githubusercontent.com/lmponcio/copia-backups/main/copia_backups_thumbnail.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
+[![Watch Video](https://img.youtube.com/vi/CtHMa4s8YBw/0.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
 
 ## How it works
 
