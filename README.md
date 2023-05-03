@@ -34,7 +34,7 @@ A script for creating backups of multiple folders/files into multiple destinatio
 				-------------------|--------------
 				-c | zip the backup (compress)
 				-t | no timestamp prefix (keep src name of file/folder)
-				-v | verify files files at the end (make sure dst files/folders exist)
+				-v | verify files at the end (make sure dst files/folders exist)
 			
 			-	Example: compressing with "-c"
 				```
