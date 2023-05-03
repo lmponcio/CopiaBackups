@@ -2,6 +2,9 @@
 
 A script for creating backups of multiple folders/files into multiple destinations.
 
+## See it in action
+![](https://www.youtube.com/watch?v=CtHMa4s8YBw)
+
 ## How it works
 
 - **Some definitions**:
@@ -47,11 +50,3 @@ A script for creating backups of multiple folders/files into multiple destinatio
 				python main.py "example_routine" -v
 				```
 				In the case shown above the routine called 'example_routine' is run and a verification process is performed at the end of the run. The results of this verification process can be seen in the log.
-			
-## About the script
-- **OS it runs on:**
-	- Linux and Windows. 
-	- The paths in "routines.json" have to be added in a different way depending the OS. The current "routines.json" file in the repo contains a linux routine example and a windows routine example that you can check. 
-- **Language and Packages**:
-	- The script was developed using Python 3.8.10.
-	- The modules used come together with python (logging, os, shutil, zipfile, datetime, argparse and json) and no external packages are needed to be installed for running. 
