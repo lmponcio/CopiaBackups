@@ -6,9 +6,9 @@ A script for creating backups of multiple folders/files into multiple destinatio
 
 [![Watch Video](https://img.youtube.com/vi/CtHMa4s8YBw/0.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
 
-## How it works
+## How to use it
 
-- **Some definitions**:
+- **Definitions**:
     - Backup routine: we call backup routine to the process of copying the files and folders stated in a list of source paths into destinations stated in a list of destination paths. The backup routines are manually configured in "routines.json" before running the script - to add a new backup routine it is necessary to provide three things: a routine name, a list of sources, and a list of destinations. The "routines.json" file can contain as many routines as needed - each routine must have a different name.
     - Source paths: these are paths that we want to create a backup of. They can be paths of folders (so all subfolders & files will be copied) or paths of files (when only wanting to save one file). The list of source paths in a routine can contain as many source paths as needed.
     - Destination paths: these are the paths where we want to save our backups. They must to be folders (a file can't be a destination path). The list of destination paths in a routine can contain as many destinations paths as needed.
