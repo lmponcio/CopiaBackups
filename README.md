@@ -2,8 +2,9 @@
 
 A script for creating backups of multiple folders/files into multiple destinations.
 
-## See it in action
-![](https://www.youtube.com/watch?v=CtHMa4s8YBw)
+## Watch it at work
+
+[![Watch Video](https://raw.githubusercontent.com/lmponcio/copia-backups/main/copia_backups_thumbnail.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
 
 ## How it works
 
