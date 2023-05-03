@@ -2,7 +2,7 @@
 
 A script for creating backups of multiple folders/files into multiple destinations.
 
-## Watch it at work
+## Watch it work
 
 [![Watch Video](https://raw.githubusercontent.com/lmponcio/copia-backups/main/copia_backups_thumbnail.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
 
