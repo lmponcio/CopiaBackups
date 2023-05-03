@@ -1,0 +1,12 @@
+python==3.8.10
+black==23.3.0
+flake8==3.9.2
+mccabe==0.6.1
+mypy-extensions==1.0.0
+packaging==23.1
+pathspec==0.11.1
+platformdirs==3.5.0
+pycodestyle==2.7.0
+pyflakes==2.3.1
+tomli==2.0.1
+typing-extensions==4.5.0
