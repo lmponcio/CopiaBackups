@@ -7,7 +7,7 @@ import argparse
 import json
 
 
-version = "1.1"
+__version__ = "v1.1-alpha"
 
 
 def log_config():
@@ -32,7 +32,7 @@ def clinterface():
         prog="Copia Backups",
         description="Runs backup routines saved in a separate JSON file",
     )
-    parser.version = version
+    parser.version = __version__
     parser.add_argument(
         "r",
         action="store",
@@ -381,12 +381,9 @@ class CopyMgr:
 
 
 if __name__ == "__main__":
-    import logging
-    import os
-
     # configuring log
     log_config()
-    logging.debug("Copia Backups v%s started - script by lmponcio", version)
+    logging.debug("Copia Backups %s started - script by lmponcio", __version__)
 
     # importing arguments
     arguments = clinterface()
