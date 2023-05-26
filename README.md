@@ -4,6 +4,8 @@ A script for creating backups of multiple folders/files into multiple destinatio
 
 ## Watch it work
 
+In this example video I use copia backups for saving timestamped backups in a USB Drive and other destinatinos.
+
 [![Watch Video](https://img.youtube.com/vi/CtHMa4s8YBw/0.jpg)](https://www.youtube.com/watch?v=CtHMa4s8YBw)
 
 ## How to use it
