@@ -20,12 +20,12 @@ In this example video I use copia backups for saving timestamped backups in a US
 	- The script runs by executing the file "main.py" and providing the positional and optional arguments as needed.
 		- **Positional arguments**: at least the name of one routine must be provided. All the routines given as positional arguments will be run.
 			- Example: running one routine
-				```
+				```bash
 				python main.py "example_routine"
 				```
 				In the case shown above the routine called 'example_routine' is run.
 			- Example: running more than one routine
-				```
+				```bash
 				python main.py "example_routine1" "example_routine2"
 				```
 				In the case shown above the routines 'example_routine1' and 'example_routine2' are  run.
@@ -39,17 +39,17 @@ In this example video I use copia backups for saving timestamped backups in a US
 				-v | verify files at the end (make sure dst files/folders exist)
 			
 			-	Example: compressing with "-c"
-				```
+				```bash
 				python main.py "example_routine" -c
 				```
 				In the case shown above the routine called 'example_routine' is run and the backups are zipped.
 			- Example: removing timestamp prefix with ""-t"
-				```
+				```bash
 				python main.py "example_routine" -c -t
 				```
 				In the case shown above the routine called 'example_routine' is run, the backups are zipped and timestamp prefixes are not added.					
 			- Example: verifying backups were created at the end of the process with "-v"
-				```
+				```bash
 				python main.py "example_routine" -v
 				```
 				In the case shown above the routine called 'example_routine' is run and a verification process is performed at the end of the run. The results of this verification process can be seen in the log.
